@@ -1,0 +1,23 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rishab",
+  "license": "ISC",
+  "devDependencies": {
+    "@gradio/client": "^0.5.1",
+    "nodemon": "^3.0.1"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./dist": "./dist/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
